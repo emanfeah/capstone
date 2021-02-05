@@ -8,7 +8,7 @@ No frontend developed yet, only server side.
 
 Application hosted on Heroku 
 
-https://vast-stream-21858.herokuapp.com/
+https://glacial-falls-65708.herokuapp.com
 
 # Motivation
 
