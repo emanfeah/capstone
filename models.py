@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 
 database_name = "movie"
-database_path = "postgres://postgres:NoRh1401@{}/{}".format('localhost:5432', database_name)
+database_path = "postgres://lpdxkbmozwcqxx:e44b009057cc89694fa7004bea80869bb12ecb0999e3d432b91f6709e465c0e5@ec2-52-205-3-3.compute-1.amazonaws.com:5432/dfdbj7hhtjc1bi"
 
 db = SQLAlchemy()
 
