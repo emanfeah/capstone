@@ -30,7 +30,7 @@ class CapstonTestCase(unittest.TestCase):
         self.app = create_app()
         self.client = self.app.test_client
         self.database_name = "movie"
-        self.database_path = "postgres://{}:{}@{}/{}".format('postgres', 'NoRh1401', 'localhost:5432',
+        self.database_path = "postgres://{}:{}@{}/{}".format('postgres', 'passwad of your postgres', 'localhost:5432',
                                                              self.database_name)
         setup_db(self.app, self.database_path)
 
